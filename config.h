@@ -37,8 +37,8 @@ static MoveBinding move_bindings[] = {
 static ClickBinding click_bindings[] = {
     /* key          button */  
     { XK_i,         1 },
-    { XK_o,         2 },
-    { XK_semicolon, 3 },
+    { XK_semicolon, 2 },
+    { XK_o,         3 },
 };
 
 /* scrolls up, down, left and right
@@ -61,11 +61,11 @@ static ShellBinding shell_bindings[] = {
     // { XK_b,        "wmctrl -a firefox" },
     // { XK_0,        "xdotool mousemove 0 0" },
     { XK_g,             "xdotool mousedown 1" },
-    { XK_apostrophe,    "xdotool mousedown 2" },
-    { XK_comma,         "xdotool mousedown 3" },
+    { XK_comma,         "xdotool mousedown 2" },
+    { XK_apostrophe,    "xdotool mousedown 3" },
 };
 
 /* exits on key release which allows click and exit with one key */
 static KeySym exit_keys[] = {
-    XK_Escape, XK_q, XK_i, XK_o, XK_semicolon,
+    XK_Escape, XK_q, XK_space,
 };
