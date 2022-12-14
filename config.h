@@ -14,7 +14,7 @@ static SpeedBinding speed_bindings[] = {
     { XK_Alt_L,         1500 },
     // { XK_a,             100  },
     { XK_Control_L,     3000 },
-    { XK_f,         200 },
+    { XK_f,         300 },
 };
 
 /* moves the mouse pointer
@@ -25,10 +25,10 @@ static MoveBinding move_bindings[] = {
     { XK_l,         1,    0 },
     { XK_k,         0,   -1 },
     { XK_j,         0,    1 },
-    { XK_y,        -0.5,   -0.5 },
-    { XK_u,         0.5,   -0.5 },
-    { XK_b,        -0.5,    0.5 },
-    { XK_n,         0.5,    0.5 },
+    { XK_y,        -0.75,   -0.75 },
+    { XK_u,         0.75,   -0.75 },
+    { XK_b,        -0.75,    0.75 },
+    { XK_n,         0.75,    0.75 },
 };
 
 /* 1: left
