@@ -52,8 +52,11 @@ static ScrollBinding scroll_bindings[] = {
 	// { XK_h,        25,    0  },
 	// { XK_g,       -25,    0  },
 	// scroll down with control + d
-	{ ControlMask, XK_d, 0, 25 },
-	{ ControlMask, XK_u, 0, -25 },
+	// { ControlMask, XK_d, 0, 25 },
+	// { ControlMask, XK_u, 0, -25 },
+	// scroll with leftbracket and rightbracket
+	{ XK_bracketleft, 0, -25 },
+	{ XK_bracketright, 0, 25 },
 };
 
 /* executes shell commands */
